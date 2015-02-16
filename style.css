@@ -1,0 +1,139 @@
+/**  CLEARFIX -- http://nicolasgallagher.com/micro-clearfix-hack/
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/*My CSS*/
+
+body {
+    background-color: #71C1E3;
+}
+
+/* Header at top of page */
+
+header h1 {
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    font-family: shadows into light;
+    font-size: 2.8em;
+    background-color: #375F70;
+    color: white;
+}
+
+/* radio button game options form */
+
+form {
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 1em;
+}
+
+form h3 {
+    padding: 20px;
+    margin: 0;
+}
+
+form div {
+    display: block;
+    width: 160px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+form div input[type='radio'] {
+    float: left;
+}
+
+form button {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Panel on game page showing timer, flags remaining, new game button */
+
+.panel {
+    width: 220px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.panel p {
+    padding: 10px;
+    background-color: black;
+    color: red;
+}
+
+/* each individual square on game board */
+
+.square {
+    outline: 1px solid white;
+    width: 40px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    background-color: black;
+    padding-top: 10px;
+}
+
+/* squares that begin a new row */
+
+.new-row {
+    clear: both;
+}
+
+/* squares revealed by user */
+
+.reveal {
+    outline: 1px solid black;
+    background-color: white;
+    color: green;
+}
+
+/* revealed bomb square */
+
+.bomb {
+    outline: 1px solid black;
+    background-color: #A32222;
+    color: white;
+}
+
+/* div containing all individual squares */
+
+.gameboard {
+    margin: 20px auto;
+}
+
+/* hide radio button form after submission */
+.off {
+    display: none;
+}
+
+/* flag set by user to make square non-clickable */
+.flag {
+    background-color: orange;
+}

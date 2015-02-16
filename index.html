@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="utf-8">
+        <title>Minesweeper</title>
+        <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+        <link href="normalize.css" type="text/css" rel="stylesheet">
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>MineSweeper</h1>
+        </header>
+
+        <form>
+            <h3>Please Select A Game Option:</h3>
+
+            <div class="select1">
+                <input type='radio' name='game-options' value='1' id='choice1' checked="checked">
+                <label for="choice1">9x9, 10 bombs</label>
+            </div>
+
+            <div class="select2">
+                <input type='radio' name='game-options' value='2' id='choice2'>
+                <label for="choice2">12x12, 40 bombs</label>
+            </div>
+
+            <button class = 'selectBtn'>Submit</button>
+        </form>
+
+        <div class="panel off">
+            <p class='flagDisplay'>Flags Remain: <span></span></p>
+            <p class='timeDisplay'>Time: <span class='hour'>00</span>:<span class='min'>00</span>:<span class='sec'>00</span></p>
+            <button class='newGameBtn'>New Game</button>
+        </div>
+
+        <div class="gameboard cf off">
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html
