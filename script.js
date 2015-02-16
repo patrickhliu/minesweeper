@@ -394,7 +394,7 @@ for (var j = 0; j < allSq.length; j++) {
                 updateBombs();
                 this.textContent = 'F';
             }
-            else if ( !this.classList.contains('flag') ) {
+            else if ( !this.classList.contains('flag') && !this.classList.contains('reveal')) {
                 numOfBombs++;   
                 updateBombs();
                 this.textContent = '';
