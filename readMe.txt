@@ -8,3 +8,5 @@ Languages: HTML / CSS / vanilla javascript
 
 Needed Improvements: 
 Not 100% sure the timer increments correctly on an hour.
+
+Github Page: http://pliu82.github.io/minesweeper/
