@@ -267,7 +267,7 @@ function updateBombs() {
 function victoryCheck() {
     if (victoryCount === victory) {
         alert('You Win! ' + document.querySelector('.timeDisplay').textContent + ' Press OK to start a new game');
-        window.location.assign('http://localhost/port/minesweeper/');
+        window.location.assign('http://pliu82.github.io/minesweeper/');
     }
     else {
         
@@ -440,7 +440,7 @@ for (var j = 0; j < allSq.length; j++) {
                 }
 
                 alert('BOMB! Press OK to start another game');                              // alert user game over
-                window.location.assign('http://localhost/port/minesweeper/');               // go back to home page
+                window.location.assign('http://pliu82.github.io/minesweeper/');               // go back to home page
             }
         };
     })(j));
