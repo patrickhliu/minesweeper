@@ -1,12 +1,26 @@
-MineSweeper
-Idea taken from Odin Project:  http://www.theodinproject.com/javascript-and-jquery/minesweeper
+****************
+Minesweeper
+****************
+The idea for this project comes from: 
+	http://www.theodinproject.com/javascript-and-jquery/minesweeper
 
 Project Details:
-Implement minesweeper in a web browser
+	Create minesweeper using Javascript.
 
-Languages: HTML / CSS / vanilla javascript
+Hosted Link:
+	http://pliu82.github.io/minesweeper
 
-Needed Improvements: 
-Not 100% sure the timer increments correctly on an hour.
+Instructions:
+	Plays the same as the real minesweeper
 
-Github Page: http://pliu82.github.io/minesweeper/
+Languages: 
+	HTML / CSS / Vanilla Javascript
+
+3rd Party Tools: 
+	None
+
+Helpful Resources (many thanks):
+	None	
+
+Needed Improvements:
+	- Not 100% sure the timer increments correctly on an hour.
